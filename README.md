@@ -21,7 +21,7 @@ script.
 Run it like so:
 
 ```
-report.php -f input.csv
+php report.php -f input.csv
 ```
 
 ```input.csv``` refers to a file as exported from Collmex.
