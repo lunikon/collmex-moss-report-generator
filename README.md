@@ -12,9 +12,9 @@ required by the German *Bundeszentralamt für Steuern* for filing MOSS tax decla
 
 To run the script, you need to have a working installation of PHP.
 
-Also, in Collmex, you need to use the accounting system they recommend for MOSS-transcations. You can find more details 
+Also, in Collmex, you need to use the accounting system they recommend for MOSS-transactions. You can find more details 
 on this (in German) here: [Ausländische Erlösarten](https://collmex.de/cgi-bin/cgi.exe?1005,1,help,auslaendische_erloesarten).
-The account numbers, country codes, tax rates and validity dates of the tax rates are stored in the tab-seprated file 
+The account numbers, country codes, tax rates and validity dates of the tax rates are stored in the tab-separated file 
 ```accounts.tsv```. Modify this file to adjust it your accounting scheme. The validity date is currently ignored by the
 script.
 
