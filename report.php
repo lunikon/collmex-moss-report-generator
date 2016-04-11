@@ -103,15 +103,18 @@ if (($handle = fopen($filename, 'r')) !== FALSE) {
                 $account = $accounts[$current_account];
                 $parsed_tax = parse_number($row[$indexes['Betrag']]);
                 $calculated_tax = round($current_amount * $account->tax_percentage, 2);
-                $diff = round(($parsed_tax - $calculated_tax) * 100);
+                $diff = abs(round(($parsed_tax - $calculated_tax) * 100));
                 if ($diff > 1) {
                     // Differences up to 1 cent are seen as acceptable rounding errors.
-                    echo "Record $record_id: Parsed ($parsed_tax) and calculated ($calculated_tax) tax amounts differ by $diff cents.\n";
+                    echo "Record $record_id: Parsed ($parsed_tax) and calculated ($calculated_tax) tax amounts differ by $diff cents. Using calculated amount.\n";
+					$tax = $calculated_tax;
                 } else {
-                    $result = $results[$current_account];
-                    $result->base += $current_amount;
-                    $result->tax += $parsed_tax;
+                    $tax = $parsed_tax;                   
                 }
+
+				$result = $results[$current_account];
+				$result->base += $current_amount;
+                $result->tax += $tax;
 
                 $current_account = null;
                 $current_amount = null;
