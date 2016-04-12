@@ -101,19 +101,24 @@ if (($handle = fopen($filename, 'r')) !== FALSE) {
             if ($current_account !== null && $account_number == '3818') {
                 // Check whether tax amount corresponds to tax level from account list.
                 $account = $accounts[$current_account];
+
                 $parsed_tax = parse_number($row[$indexes['Betrag']]);
-                $calculated_tax = round($current_amount * $account->tax_percentage, 2);
+                $gross = $current_amount + $parsed_tax;
+                $calculated_tax = round($gross * $account->tax_percentage / (1 + $account->tax_percentage), 2);
+
                 $diff = abs(round(($parsed_tax - $calculated_tax) * 100));
                 if ($diff > 1) {
                     // Differences up to 1 cent are seen as acceptable rounding errors.
                     echo "Record $record_id: Parsed ($parsed_tax) and calculated ($calculated_tax) tax amounts differ by $diff cents. Using calculated amount.\n";
+                    $base = $gross - $calculated_tax;
 					$tax = $calculated_tax;
                 } else {
+                    $base = $current_amount;
                     $tax = $parsed_tax;                   
                 }
 
 				$result = $results[$current_account];
-				$result->base += $current_amount;
+				$result->base += $base;
                 $result->tax += $tax;
 
                 $current_account = null;
