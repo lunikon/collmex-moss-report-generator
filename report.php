@@ -76,7 +76,7 @@ if (($handle = fopen($filename, 'r')) !== FALSE) {
                 $indexes[$row[$c]] = $c;
             }
         } else {
-            $r = $row[$indexes['BelegNr']];
+            $r = $row[$indexes['BuchungNr']];
 
             // Reset state whenever new record starts.
             if ($r !== $record_id) {
@@ -114,7 +114,7 @@ if (($handle = fopen($filename, 'r')) !== FALSE) {
 					$tax = $calculated_tax;
                 } else {
                     $base = $current_amount;
-                    $tax = $parsed_tax;                   
+                    $tax = $parsed_tax;
                 }
 
 				$result = $results[$current_account];
