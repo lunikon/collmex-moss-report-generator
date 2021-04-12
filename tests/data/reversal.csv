@@ -1,0 +1,4 @@
+Firma;Jahr;BuchungNr;Belegdatum;Gebucht am;Text;BuchungPos;Konto;Konto Name;S/H;Betrag;Kunde;Kunde Name;Lieferant;Lieferant Name;Anlage;Anlage Name;Stornierte Buchung;Kostenstelle;Rechnung Nr;Auftrag Nr;Reise Nr;Zugeordnet Nr;Zugeordnet Jahr;Zugeordnet Pos;Dokument Nr;Belegdatum (ISO);Gebucht am (ISO);Internes Memo;Gebucht von
+1;2021;7277;10.03.2021;17.03.2021;Storno;1;1241;Forderungen gg�. Stripe;Haben;-59,00;;;;;;;;;;;;;;;;20210310;20210317;;3054630
+1;2021;7277;10.03.2021;17.03.2021;Storno;2;4027;Erl�se aus elektronisch erbrachten Leistungen GB;Soll;49,17;;;;;;;;;;;;;;;;20210310;20210317;;3054630
+1;2021;7277;10.03.2021;17.03.2021;Storno;3;3818;Umsatzsteuer aus im anderen EU-Land steuerpflichtigen Leistungen;Soll;9,83;;;;;;;;;;;;;;;;20210310;20210317;;3054630

@@ -1,0 +1,4 @@
+Firma;Jahr;BuchungNr;Belegdatum;Gebucht am;Text;BuchungPos;Konto;Konto Name;S/H;Betrag;Kunde;Kunde Name;Lieferant;Lieferant Name;Anlage;Anlage Name;Stornierte Buchung;Kostenstelle;Rechnung Nr;Auftrag Nr;Reise Nr;Zugeordnet Nr;Zugeordnet Jahr;Zugeordnet Pos;Dokument Nr;Belegdatum (ISO);Gebucht am (ISO);Internes Memo;Gebucht von
+1;2021;6;01.01.2021;04.01.2021;An accounting entry;1;1240;Forderungen;Soll;3,60;;;;;;;;;;;;;;;;20210101;20210104;;3054630
+1;2021;6;01.01.2021;04.01.2021;An accounting entry;2;4007;Erl�se aus elektronisch erbrachten Leistungen ES;Haben;-2,98;;;;;;;;;;;;;;;;20210101;20210104;;3054630
+1;2021;6;01.01.2021;04.01.2021;An accounting entry;3;3818;Umsatzsteuer aus im anderen EU-Land steuerpflichtigen Leistungen;Haben;-0,62;;;;;;;;;;;;;;;;20210101;20210104;;3054630

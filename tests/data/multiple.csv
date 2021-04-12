@@ -1,0 +1,13 @@
+Firma;Jahr;BuchungNr;Belegdatum;Gebucht am;Text;BuchungPos;Konto;Konto Name;S/H;Betrag;Kunde;Kunde Name;Lieferant;Lieferant Name;Anlage;Anlage Name;Stornierte Buchung;Kostenstelle;Rechnung Nr;Auftrag Nr;Reise Nr;Zugeordnet Nr;Zugeordnet Jahr;Zugeordnet Pos;Dokument Nr;Belegdatum (ISO);Gebucht am (ISO);Internes Memo;Gebucht von
+1;2021;6;01.01.2021;04.01.2021;An accounting entry;1;1240;Forderungen;Soll;3,60;;;;;;;;;;;;;;;;20210101;20210104;;3054630
+1;2021;6;01.01.2021;04.01.2021;An accounting entry;2;4007;Erl�se aus elektronisch erbrachten Leistungen ES;Haben;-2,98;;;;;;;;;;;;;;;;20210101;20210104;;3054630
+1;2021;6;01.01.2021;04.01.2021;An accounting entry;3;3818;Umsatzsteuer aus im anderen EU-Land steuerpflichtigen Leistungen;Haben;-0,62;;;;;;;;;;;;;;;;20210101;20210104;;3054630
+1;2021;7;01.01.2021;04.01.2021;xxx;1;1240;Forderungen gg�. PayPal;Soll;31,70;;;;;;;;;;;;;;;;20210101;20210104;;3054630
+1;2021;7;01.01.2021;04.01.2021;xxx;2;4400;Erl�se 19% USt;Haben;-26,64;;;;;;;;;;;;;;;;20210101;20210104;;3054630
+1;2021;7;01.01.2021;04.01.2021;xxx;3;3806;Umsatzsteuer 19%;Haben;-5,06;;;;;;;;;;;;;;;;20210101;20210104;;3054630
+1;2021;8;01.01.2021;04.01.2021;yyy;1;1240;Forderungen gg�. PayPal;Soll;3,60;;;;;;;;;;;;;;;;20210101;20210104;;3054630
+1;2021;8;01.01.2021;04.01.2021;yyy;2;4007;Erl�se aus elektronisch erbrachten Leistungen ES;Haben;-2,98;;;;;;;;;;;;;;;;20210101;20210104;;3054630
+1;2021;8;01.01.2021;04.01.2021;yyy;3;3818;Umsatzsteuer aus im anderen EU-Land steuerpflichtigen Leistungen;Haben;-0,62;;;;;;;;;;;;;;;;20210101;20210104;;3054630
+1;2021;483;07.01.2021;11.01.2021;zzz;1;1240;Forderungen gg�. PayPal;Soll;8,60;;;;;;;;;;;;;;;;20210107;20210111;;3054630
+1;2021;483;07.01.2021;11.01.2021;zzz;2;4010;Erl�se aus elektronisch erbrachten Leistungen IE;Haben;-7,11;;;;;;;;;;;;;;;;20210107;20210111;;3054630
+1;2021;483;07.01.2021;11.01.2021;zzz;3;3818;Umsatzsteuer aus im anderen EU-Land steuerpflichtigen Leistungen;Haben;-1,49;;;;;;;;;;;;;;;;20210107;20210111;;3054630
